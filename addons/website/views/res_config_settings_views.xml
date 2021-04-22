@@ -326,17 +326,17 @@
             </field>
         </record>
 
-        <record id="action_website_configuration" model="ir.actions.act_window">
+        <!--record id="action_website_configuration" model="ir.actions.act_window">
             <field name="name">Settings</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">res.config.settings</field>
             <field name="view_mode">form</field>
             <field name="target">inline</field>
             <field name="context">{'module' : 'website'}</field>
-        </record>
+        </record-->
 
-        <menuitem id="menu_website_global_configuration" parent="menu_website_configuration"
-            sequence="100" name="Configuration" groups="base.group_system"/>
+        <!--menuitem id="menu_website_global_configuration" parent="menu_website_configuration"
+            sequence="100" name="Configuration" groups="base.group_system"/-->
 
         <menuitem name="Settings"
             id="menu_website_website_settings"
