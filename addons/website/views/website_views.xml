@@ -316,10 +316,10 @@
             <field name="code">action = model.env.ref('website.backend_dashboard').read()[0]</field>
         </record>
 
-        <menuitem id="menu_dashboard"
+        <!--menuitem id="menu_dashboard"
             name="Dashboard"
             sequence="1"
-            parent="website.menu_website_configuration"/>
+            parent="website.menu_website_configuration"/-->
 
         <!-- Force empty action, to ease upgrade -->
         <record id="menu_dashboard" model="ir.ui.menu">
